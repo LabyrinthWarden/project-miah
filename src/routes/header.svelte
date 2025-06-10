@@ -1,6 +1,6 @@
-<script lang="ts">
+<script>
 	import * as config from '$lib/config';
-	import logoImg from '/images/logo_transparent_bg.png';
+	import logoImg from '/images/triangle_logo.png';
 </script>
 
 <div class="navbar fixed top-0 bg-base-300">
@@ -35,7 +35,7 @@
 		</div>
 		<div tabindex="0" role="button" class="avatar hidden md:block ml-4">
       <a href="/" class="text-xl">
-        <div class="w-10 rounded-full">
+        <div class="w-10 rounded-xl">
 					<img alt="Miah's Losing It Logo" src={logoImg} />
         </div>
 				</a>
@@ -53,7 +53,7 @@
 	<div class="navbar-end pr-6">
 		<div tabindex="0" role="button" class="avatar md:hidden">
       <a href="/" class="text-xl">
-        <div class="w-10 rounded-full">
+        <div class="w-10 rounded-xl">
 					<img alt="Miah's Losing It Logo" src={logoImg} />
         </div>
 				</a>
